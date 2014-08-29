@@ -1,28 +1,6 @@
-== README
+# Harry's First App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is my first application, which I've titled Visualize -- hopefully that will explain itself soon.
+I am creating it with passion, love (and a fair bit of initial confusion) from my apartment in Denver. 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
