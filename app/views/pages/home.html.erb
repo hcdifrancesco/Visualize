@@ -1,13 +1,16 @@
 <div class="jumbotron center">
-		<h1>Welcome to Visualize</h1>
-		<h2>My name is Harry and I'm very happy you've visited</h2>
-		<%if user_signed_in? %>
-		# do something
+	<%if user_signed_in? %>
+	<h1>Welcome to the Members Only Area</h1>
+	<h2>Feel free to poke around and please share any feedback</h2>
 		<% else %>
+		<h1>Welcome to Visualize</h1>
+		<h3>My name is Harry, I am very happy you visited</h3>
+			<div class= "container">
 			<p>
 				<%= link_to " Sign up ", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 				
 			</p>
+		</div>
 		<%end %>
 
 
